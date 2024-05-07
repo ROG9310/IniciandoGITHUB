@@ -1,0 +1,2 @@
+# psychic-eureka
+UN BLOG PARA INICIAR GITHUB
