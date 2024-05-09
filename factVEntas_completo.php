@@ -23,9 +23,9 @@
     fwrite($fp, $encabezados);
     //--------> Conexión ODBC
     //$dsn = 'odbc_LOCAL'; 
-    $dsn = 'PRODUCCION';
-    $user = 'ODBC';
-    $password = 'ODBC';
+    $dsn = '';
+    $user = '';
+    $password = '';
 
     $odbcConnection = odbc_connect($dsn, $user, $password);
     if (!$odbcConnection) {
@@ -33,11 +33,11 @@
     }
     echo "<br>CONECTADO<br>";
     
-    $serverName = "175.168.41.4\DW";
+    $serverName = "";
     $connectionOptions = array(
-        "Database" => "DWMBA3",
-        "Uid" => "sa",
-        "PWD" => "Blog2020"
+        "Database" => "",
+        "Uid" => "",
+        "PWD" => ""
     );
         
 
